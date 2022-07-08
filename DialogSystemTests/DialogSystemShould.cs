@@ -45,15 +45,15 @@ namespace DialogSystemTests
         //buscar requerimientos reales de juegos de interés
         //algoritmo para leer text dialog en formato json
 
-        private static readonly List<NodeDialog> testDialog = new List<NodeDialog>
+        private static readonly List<NodeDialog> testDialog = new()
         {
             new NodeDialog(1, "- Hola...", "Action: Levanta su mano izquierda", new List<NodeAction>
             {
-                new NodeAction(1, "action 1", 2)
+                new(1, "action 1", 2)
             }),
             new NodeDialog(2, "- Me llamo ElChapo", "Action: Sonrie", new List<NodeAction>
             {
-                new NodeAction(1, "action 1", 3)
+                new(1, "action 1", 3)
             })
         };
 

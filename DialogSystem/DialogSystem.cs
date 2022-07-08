@@ -23,7 +23,7 @@ namespace DialogSystem
         }
 
         private NodeDialog GetNextNode(NodeActionTaken actionTaken, NodeDialog dialogNode) =>
-            GetNode(dialogNode.GetActions().Find(action => action.Number == actionTaken.ActionNumber).NextNodeId);
+            GetNode(dialogNode.GetActions().FirstOrDefault(action => action.Number == actionTaken.ActionNumber)!.NextNodeId);
 
         private static bool ExistsActionInNode(NodeActionTaken actionTaken, NodeDialog dialogNode) =>
             dialogNode.GetActions().Exists(a => a.Number == actionTaken.ActionNumber);

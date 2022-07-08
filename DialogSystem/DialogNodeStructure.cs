@@ -2,7 +2,7 @@ namespace DialogSystem
 {
     public class DialogNodeStructure
     {
-        private readonly Dictionary<int, NodeDialog> _dictionaryEntry = new Dictionary<int, NodeDialog>();
+        private readonly Dictionary<int, NodeDialog> _dictionaryEntry = new();
 
         public DialogNodeStructure(List<NodeDialog> dialogNodes) => 
             dialogNodes.ForEach(dn => _dictionaryEntry.Add(dn.GetId(), dn));
