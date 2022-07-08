@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogSystemKata", "DialogSystemKata\DialogSystemKata.csproj", "{9B0584CE-9036-4BDE-A406-B0EA96FB70A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogSystem", "DialogSystem\DialogSystem.csproj", "{71C9353A-C494-4FD2-92B5-FE826C21138F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogSystemTests", "DialogSystemTests\DialogSystemTests.csproj", "{97D4E1A4-6204-4D38-BD1B-A1135647D9CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B0584CE-9036-4BDE-A406-B0EA96FB70A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0584CE-9036-4BDE-A406-B0EA96FB70A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0584CE-9036-4BDE-A406-B0EA96FB70A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0584CE-9036-4BDE-A406-B0EA96FB70A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C9353A-C494-4FD2-92B5-FE826C21138F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C9353A-C494-4FD2-92B5-FE826C21138F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C9353A-C494-4FD2-92B5-FE826C21138F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C9353A-C494-4FD2-92B5-FE826C21138F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D4E1A4-6204-4D38-BD1B-A1135647D9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D4E1A4-6204-4D38-BD1B-A1135647D9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D4E1A4-6204-4D38-BD1B-A1135647D9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D4E1A4-6204-4D38-BD1B-A1135647D9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
